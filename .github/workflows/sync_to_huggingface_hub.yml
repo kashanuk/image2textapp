@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://kashanuk:$HF_TOKEN@huggingface.co/spaces/kashanuk/image-to-text-app main
+        run: git push --force https://kashanuk:$HF_TOKEN@huggingface.co/spaces/kashanuk/image-to-text-app main
